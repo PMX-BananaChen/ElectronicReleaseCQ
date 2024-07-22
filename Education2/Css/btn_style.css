@@ -1,0 +1,8 @@
+﻿ .Button02
+{
+	background: url(../WebImg/main_61.gif) repeat-x 50% center;
+	border: 1px solid #74BFE7;
+	color: White;
+	padding: 2px;
+    height: 23px;
+}

@@ -1,0 +1,158 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Education2.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/Vaisi_Style.css" rel="stylesheet" />
+  <%--  <script language="javascript" type="text/javascript" src="Scripts/Menu.js"></script>--%>
+    <script language="javascript" type="text/javascript" src="Scripts/swfobject.js"></script>
+<%--    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>--%>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+            color: #006666;
+        }
+    </style>
+
+         
+        <script type="text/javascript">
+            function qiehuan(num) {
+                for (var id = 0; id <= 4; id++) {
+                    if (id == num) {
+                        var cc = document.getElementById("mynav" + id);
+                        if (cc.className == "nav_on2") {
+
+                        }
+                        else {
+                            document.getElementById("qh_con" + id).style.display = "block";
+                            document.getElementById("mynav" + id).className = "nav_on";
+                        }
+
+
+                    }
+                    else {
+
+                        var cc = document.getElementById("mynav" + id);
+                        if (cc.className == "nav_on2") {
+                            document.getElementById("qh_con" + id).style.display = "none";
+                            document.getElementById("mynav" + id).className = "";
+                        }
+                        else {
+                            document.getElementById("qh_con" + id).style.display = "none";
+                            document.getElementById("mynav" + id).className = "";
+                        }
+
+
+                    }
+                }
+            }
+        </script>
+</head>
+<body>
+   
+    <div class="hwrap">
+        <div class="header">
+            <div class="logo_left">
+            </div>
+            <div class="logo_center">
+                &nbsp; <strong><span class="auto-style1" style="font-family: 微软雅黑; text-align: center;">電&nbsp; 子&nbsp; 放&nbsp; 行&nbsp; 條&nbsp; 管&nbsp; 理&nbsp; 系&nbsp; 統&nbsp; </span></strong>&nbsp;</div>
+            <div class="logo_right">
+                <div>
+                 
+                </div>
+                <div>
+                 </div>
+            </div>
+            <div id="menu_out">
+                <div id="menu_in">
+                    <div id="menu">
+                        <ul id="nav"  runat="server" >
+                            <li><a  <%=show0 %> href="UserApply.aspx" id="mynav0"  onmouseover="javascript:qiehuan(0)"><span>放行申請</span></a></li>
+                            <li><a  <%=show1 %> href="ApprovePost.aspx" onmouseover="javascript:qiehuan(1)" id="mynav1"><span>主管審核</span></a></li>
+                          <%--<li><a  <%=show2 %>  href="GuardApply.aspx" onmouseover="javascript:qiehuan(2)" id="mynav2"><span>警衛補單</span></a></li>--%>
+                            <li><a  <%=show3 %>  href="Report.aspx" onmouseover="javascript:qiehuan(2)" id="mynav2"><span>報表中心</span></a></li>
+                            <li><a  <%=show4 %>  href="Agent.aspx" onmouseover="javascript:qiehuan(3)" id="mynav3"><span>代理設定</span></a></li>
+                            <li><a  <%=show5 %>  href="PersonalDocuments.aspx" onmouseover="javascript:qiehuan(4)" id="mynav4"><span>個人單據</span></a></li>
+                        </ul>
+                        <div id="menu_con">
+                            <div id="qh_con0" >
+                            </div>
+                            <div id="qh_con1" >
+                            </div>
+                        <%--    <div id="qh_con2" >
+                            </div>--%>
+                            <div id="qh_con2" >
+                            </div>
+                            <div id="qh_con3" >
+                            </div>
+                           <div id="qh_con4" >
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    
+        <span class="clear"></span>
+        <form id="form1" runat="server">
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </form>
+    </div>
+
+    
+    <div class="copy">
+        <hr />
+        <br />
+        東 莞 東 聚 電 子 放 行 條 管 理 系 統<br />
+        <br />
+        系統問題聯繫 IT Ap-team Kyle.Kang 分機:2345<br />
+        <br />
+        Copyright&nbsp;&copy;2017&nbsp;&nbsp;東莞東聚電子電訊製品有限公司&nbsp;&nbsp;
+    </div>
+   <!--在线客服Begin-->
+   <%-- <div style="position: fixed; top: 180px; right: 2px; width: 170px; height: 368px;
+        background: url('WebImg/2013-4-16.gif') no-repeat scroll 0% 0% transparent; display: block;">
+        <div style="width: 170px; height: 15px; line-height: 15px; margin-top: 60px; text-align: center;">
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<%=qq1 %>&site=qq&menu=yes">
+                <img style="vertical-align: middle;" border="0" src="http://wpa.qq.com/pa?p=2:<%=qq1 %>:51"
+                    alt="我们竭诚为您服务！" title="我们竭诚为您服务！" /></a> <a target="_blank" href="http://amos.alicdn.com/getcid.aw?v=2&uid=<%=ww1 %>&site=cntaobao&s=1&groupid=0&charset=utf-8">
+                        <img style="vertical-align: middle;" border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=<%=ww1 %>&site=cntaobao&s=1&charset=utf-8"
+                            alt="点击这里给我发消息" /></a>
+        </div>
+        <div style="width: 170px; height: 15px; line-height: 15px; margin-top: 28px; text-align: center;">
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<%=qq2 %>&site=qq&menu=yes">
+                <img style="vertical-align: middle;" border="0" src="http://wpa.qq.com/pa?p=2:<%=qq2 %>:51"
+                    alt="我们竭诚为您服务！" title="我们竭诚为您服务！" /></a> <a target="_blank" href="http://amos.alicdn.com/getcid.aw?v=2&uid=<%=ww2 %>&site=cntaobao&s=1&groupid=0&charset=utf-8">
+                        <img style="vertical-align: middle;" border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=<%=ww2 %>&site=cntaobao&s=1&charset=utf-8"
+                            alt="点击这里给我发消息" /></a>
+        </div>
+        <div style="width: 170px; height: 15px; line-height: 15px; margin-top: 30px; text-align: center;">
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<%=qq3 %>&site=qq&menu=yes">
+                <img style="vertical-align: middle;" border="0" src="http://wpa.qq.com/pa?p=2:<%=qq3 %>:51"
+                    alt="我们竭诚为您服务！" title="我们竭诚为您服务！" /></a> <a target="_blank" href="http://amos.alicdn.com/getcid.aw?v=2&uid=<%=ww3 %>&site=cntaobao&s=1&groupid=0&charset=utf-8">
+                        <img style="vertical-align: middle;" border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=<%=ww3 %>&site=cntaobao&s=1&charset=utf-8"
+                            alt="点击这里给我发消息" /></a>
+        </div>
+    </div>--%>
+    <!--在线客服End-->
+    <!-- Baidu Button BEGIN -->
+
+ <%--   <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=5&amp;pos=left&amp;uid=862448"></script>
+    <script type="text/javascript" id="bdshell_js"></script>
+    <script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000);
+    </script>--%>
+
+
+    <!-- Baidu Button END -->
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<banner width="1000" height="300" backgroundColor="0xffffff" backgroundTransparency="100" startWith="1" barHeight="28" fadeTransition="false" verticalTransition="false" controllerTop="false" transitionSpeed="1" titleX="0" titleY="0">
+  <items>
+    <item name="1">
+      <title>
+      </title>
+      <path>1.jpg</path>
+      <url>http://www.baidu.com</url>
+      <target>_blank</target>
+      <bar_color>0x4A5E33</bar_color>
+      <bar_transparency>50</bar_transparency>
+      <slideShowTime>3</slideShowTime>
+    </item>
+    <item name="2">
+      <title>
+      </title>
+      <path>2.png</path>
+      <url>http://www.baidu.com</url>
+      <target>_blank</target>
+      <bar_color>0x2075c4</bar_color>
+      <bar_transparency>50</bar_transparency>
+      <slideShowTime>3</slideShowTime>
+    </item>
+    <item name="3">
+      <title>
+      </title>
+      <path>3.jpg</path>
+      <url>http://www.baidu.com</url>
+      <target>_blank</target>
+      <bar_color>0x666666</bar_color>
+      <bar_transparency>50</bar_transparency>
+      <slideShowTime>3</slideShowTime>
+    </item>
+    <item name="4">
+      <title>
+      </title>
+      <path>4.jpg</path>
+      <url>http://www.baidu.com</url>
+      <target>_blank</target>
+      <bar_color>0x666666</bar_color>
+      <bar_transparency>50</bar_transparency>
+      <slideShowTime>3</slideShowTime>
+    </item>
+    <item name="5">
+      <title>
+      </title>
+      <path>5.jpg</path>
+      <url>http://www.baidu.com</url>
+      <target>_blank</target>
+      <bar_color>0x666666</bar_color>
+      <bar_transparency>50</bar_transparency>
+      <slideShowTime>3</slideShowTime>
+    </item>
+  </items>
+  
+</banner>

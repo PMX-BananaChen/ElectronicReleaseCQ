@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1288EDE-8871-493B-8A94-4AA43CCBB281}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Education2</RootNamespace>
+    <AssemblyName>Education2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddAgent2.aspx" />
+    <Content Include="Agent.aspx" />
+    <Content Include="AgentDetail.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="ApprovePost.aspx" />
+    <Content Include="ApprovePostDetail.aspx" />
+    <Content Include="Css\btn_style.css" />
+    <Content Include="Error3.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Error2.aspx" />
+    <Content Include="ExcelToApply.aspx" />
+    <Content Include="GuardApply.aspx" />
+    <Content Include="phonelogin.aspx" />
+    <Content Include="My97DatePicker\calendar.js" />
+    <Content Include="My97DatePicker\config.js" />
+    <Content Include="My97DatePicker\lang\en.js" />
+    <Content Include="My97DatePicker\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\My97DatePicker.htm" />
+    <Content Include="My97DatePicker\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\skin\default\img.gif" />
+    <Content Include="My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="My97DatePicker\WdatePicker.js" />
+    <Content Include="My97DatePicker\羲楷婦\lang\en.js" />
+    <Content Include="My97DatePicker\羲楷婦\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\羲楷婦\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\羲楷婦\readme.txt" />
+    <Content Include="My97DatePicker\羲楷婦\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\羲楷婦\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\羲楷婦\skin\default\img.gif" />
+    <Content Include="My97DatePicker\羲楷婦\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\羲楷婦\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\羲楷婦\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\羲楷婦\skin\whyGreen\img.gif" />
+    <Content Include="PersonalDetail.aspx" />
+    <Content Include="PersonalDocuments.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MasterPage.Master" />
+    <Content Include="Css\Page_Style.css" />
+    <Content Include="Report.aspx" />
+    <Content Include="Test.aspx" />
+    <Content Include="TestManager.aspx" />
+    <Content Include="UpdateImg\error.jpg" />
+    <Content Include="UpdateImg\NoPowerIndex.PNG" />
+    <Content Include="UpdatePass.aspx" />
+    <Content Include="User.aspx" />
+    <Content Include="UserApply.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="WebImg\add.png" />
+    <Content Include="WebImg\Approve.jpg" />
+    <Content Include="WebImg\bodyback.jpg" />
+    <Content Include="WebImg\btn_bg.gif" />
+    <Content Include="WebImg\export.gif" />
+    <Content Include="WebImg\logoname.png" />
+    <Content Include="WebImg\main_61.gif" />
+    <Content Include="WebImg\login_6.gif" />
+    <Content Include="WebImg\logo2.png" />
+    <Content Include="WebImg\logo4.png" />
+    <Content Include="WebImg\Search.gif" />
+    <Content Include="My97DatePicker\lang\vssver2.scc" />
+    <Content Include="My97DatePicker\skin\default\Thumbs.db" />
+    <Content Include="My97DatePicker\skin\default\vssver2.scc" />
+    <Content Include="My97DatePicker\skin\Thumbs.db" />
+    <Content Include="My97DatePicker\skin\vssver2.scc" />
+    <Content Include="My97DatePicker\skin\whyGreen\Thumbs.db" />
+    <Content Include="My97DatePicker\skin\whyGreen\vssver2.scc" />
+    <Content Include="My97DatePicker\vssver2.scc" />
+    <Content Include="My97DatePicker\羲楷婦\lang\vssver2.scc" />
+    <Content Include="My97DatePicker\羲楷婦\skin\default\Thumbs.db" />
+    <Content Include="My97DatePicker\羲楷婦\skin\default\vssver2.scc" />
+    <Content Include="My97DatePicker\羲楷婦\skin\Thumbs.db" />
+    <Content Include="My97DatePicker\羲楷婦\skin\vssver2.scc" />
+    <Content Include="My97DatePicker\羲楷婦\skin\whyGreen\Thumbs.db" />
+    <Content Include="My97DatePicker\羲楷婦\skin\whyGreen\vssver2.scc" />
+    <Content Include="My97DatePicker\羲楷婦\vssver2.scc" />
+    <Content Include="ElectronicReleaseDataSet.xsc">
+      <DependentUpon>ElectronicReleaseDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="ElectronicReleaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ElectronicReleaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ElectronicReleaseDataSet.xss">
+      <DependentUpon>ElectronicReleaseDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="UpdateImg\01.jpg" />
+    <Content Include="UpdateImg\02.jpg" />
+    <Content Include="UpdateImg\03.jpg" />
+    <Content Include="UpdateImg\04.jpg" />
+    <Content Include="UpdateImg\05.jpg" />
+    <Content Include="UpdateImg\06.jpg" />
+    <Content Include="UpdateImg\07.jpg" />
+    <Content Include="UpdateImg\08.jpg" />
+    <Content Include="UpdateImg\09.jpg" />
+    <Content Include="UpdateImg\10.jpg" />
+    <Content Include="UpdateImg\11.jpg" />
+    <Content Include="UpdateImg\12.jpg" />
+    <Content Include="UpdateImg\18_1.jpg" />
+    <Content Include="UpdateImg\1_83.gif" />
+    <Content Include="UpdateImg\20130926144320507 - 副本.jpg" />
+    <Content Include="UpdateImg\20130926144320507.jpg" />
+    <Content Include="UpdateImg\ad_1.png" />
+    <Content Include="UpdateImg\arrow1.gif" />
+    <Content Include="UpdateImg\arrow2.gif" />
+    <Content Include="UpdateImg\hengtiao-cpjy.jpg" />
+    <Content Include="UpdateImg\hengtiao-fwxm.jpg" />
+    <Content Include="UpdateImg\hengtiao-lxwm.jpg" />
+    <Content Include="UpdateImg\newsimgbg.jpg" />
+    <Content Include="UpdateImg\pc_1.png" />
+    <Content Include="UpdateImg\success_1.png" />
+    <Content Include="UpdateImg\success_2.png" />
+    <Content Include="UpdateImg\surprise_1.png" />
+    <Content Include="UpdateImg\服务项目.jpg" />
+    <Content Include="UpdateImg\默认.png" />
+    <Content Include="WebImg\2013-4-16.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\Vaisi_Style.css" />
+    <Content Include="Scripts\fn.js" />
+    <Content Include="Scripts\Menu.js" />
+    <Content Include="Scripts\swfobject.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebImg\2013-4-16.gif" />
+    <Content Include="WebImg\bgHeader_bg - 副本.png" />
+    <Content Include="WebImg\bgHeader_bg.png" />
+    <Content Include="WebImg\content_top.gif" />
+    <Content Include="WebImg\home-bg - 副本.jpg" />
+    <Content Include="WebImg\home-bg.jpg" />
+    <Content Include="WebImg\Img\1.jpg" />
+    <Content Include="WebImg\Img\2.jpg" />
+    <Content Include="WebImg\Img\3.jpg" />
+    <Content Include="WebImg\Img\4.jpg" />
+    <Content Include="WebImg\Img\expressInstall.swf" />
+    <Content Include="WebImg\Img\Kefu.xml" />
+    <Content Include="WebImg\Img\lrtk.xml" />
+    <Content Include="WebImg\Img\preview.swf" />
+    <Content Include="WebImg\li_li.jpg" />
+    <Content Include="WebImg\logo.png" />
+    <Content Include="WebImg\main_one_1.jpg" />
+    <Content Include="WebImg\one_block_1.png" />
+    <Content Include="WebImg\one_block_2.png" />
+    <Content Include="WebImg\one_block_3.png" />
+    <Content Include="WebImg\one_block_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAgent2.aspx.cs">
+      <DependentUpon>AddAgent2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAgent2.aspx.designer.cs">
+      <DependentUpon>AddAgent2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent.aspx.cs">
+      <DependentUpon>Agent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent.aspx.designer.cs">
+      <DependentUpon>Agent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgentDetail.aspx.cs">
+      <DependentUpon>AgentDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentDetail.aspx.designer.cs">
+      <DependentUpon>AgentDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApprovePost.aspx.cs">
+      <DependentUpon>ApprovePost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApprovePost.aspx.designer.cs">
+      <DependentUpon>ApprovePost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApprovePostDetail.aspx.cs">
+      <DependentUpon>ApprovePostDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApprovePostDetail.aspx.designer.cs">
+      <DependentUpon>ApprovePostDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSQL.cs" />
+    <Compile Include="ElectronicReleaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ElectronicReleaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Error3.aspx.cs">
+      <DependentUpon>Error3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error3.aspx.designer.cs">
+      <DependentUpon>Error3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error2.aspx.cs">
+      <DependentUpon>Error2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error2.aspx.designer.cs">
+      <DependentUpon>Error2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelToApply.aspx.cs">
+      <DependentUpon>ExcelToApply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExcelToApply.aspx.designer.cs">
+      <DependentUpon>ExcelToApply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GuardApply.aspx.cs">
+      <DependentUpon>GuardApply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GuardApply.aspx.designer.cs">
+      <DependentUpon>GuardApply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="phonelogin.aspx.cs">
+      <DependentUpon>phonelogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phonelogin.aspx.designer.cs">
+      <DependentUpon>phonelogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalDetail.aspx.cs">
+      <DependentUpon>PersonalDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonalDetail.aspx.designer.cs">
+      <DependentUpon>PersonalDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalDocuments.aspx.cs">
+      <DependentUpon>PersonalDocuments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonalDocuments.aspx.designer.cs">
+      <DependentUpon>PersonalDocuments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestManager.aspx.cs">
+      <DependentUpon>TestManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestManager.aspx.designer.cs">
+      <DependentUpon>TestManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePass.aspx.cs">
+      <DependentUpon>UpdatePass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePass.aspx.designer.cs">
+      <DependentUpon>UpdatePass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApply.aspx.cs">
+      <DependentUpon>UserApply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApply.aspx.designer.cs">
+      <DependentUpon>UserApply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vaisi_caseModel.cs" />
+    <Compile Include="Vaisi_friendModel.cs" />
+    <Compile Include="Vaisi_mainModel.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="My97DatePicker\开发包\lang\" />
+    <Folder Include="My97DatePicker\开发包\skin\default\" />
+    <Folder Include="My97DatePicker\开发包\skin\whyGreen\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Report1.rdlc" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54417</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54417/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

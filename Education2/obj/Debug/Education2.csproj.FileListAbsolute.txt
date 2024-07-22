@@ -1,0 +1,88 @@
+D:\Code\Education\Education2\bin\Education2.dll.config
+D:\Code\Education\Education2\bin\Education2.dll
+D:\Code\Education\Education2\bin\Education2.pdb
+D:\Code\Education\Education2\obj\Debug\Education2.dll
+D:\Code\Education\Education2\obj\Debug\Education2.pdb
+D:\Code\Education\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\Code\Education保留版本\Education2\bin\Education2.dll.config
+D:\Code\Education保留版本\Education2\bin\Education2.dll
+D:\Code\Education保留版本\Education2\bin\Education2.pdb
+D:\Code\Education保留版本\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\Code\Education保留版本\Education2\obj\Debug\Education2.dll
+D:\Code\Education保留版本\Education2\obj\Debug\Education2.pdb
+C:\Users\kyle.kang\Desktop\Education保留版本\Education2\bin\Education2.dll.config
+C:\Users\kyle.kang\Desktop\Education保留版本\Education2\bin\Education2.dll
+C:\Users\kyle.kang\Desktop\Education保留版本\Education2\bin\Education2.pdb
+C:\Users\kyle.kang\Desktop\Education保留版本\Education2\obj\Debug\Education2.dll
+C:\Users\kyle.kang\Desktop\Education保留版本\Education2\obj\Debug\Education2.pdb
+C:\Users\kyle.kang\Desktop\Education保留版本\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\Code\Education保留版本NEW\Education2\bin\Education2.dll.config
+D:\Code\Education保留版本NEW\Education2\bin\Education2.dll
+D:\Code\Education保留版本NEW\Education2\bin\Education2.pdb
+D:\Code\Education保留版本NEW\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\Code\Education保留版本NEW\Education2\obj\Debug\Education2.dll
+D:\Code\Education保留版本NEW\Education2\obj\Debug\Education2.pdb
+D:\Code\教育網站\Education\Education2\bin\Education2.dll.config
+D:\Code\教育網站\Education\Education2\bin\Education2.dll
+D:\Code\教育網站\Education\Education2\bin\Education2.pdb
+D:\Code\教育網站\Education\Education2\obj\Debug\Education2.dll
+D:\Code\教育網站\Education\Education2\obj\Debug\Education2.pdb
+D:\Code\教育網站\Education\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.dll.config
+D:\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.dll
+D:\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.pdb
+D:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.dll
+D:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.pdb
+D:\Code\放行條申請系統\ElectronicRelease - 複製\Education2\bin\Education2.dll.config
+D:\Code\放行條申請系統\ElectronicRelease - 複製\Education2\bin\Education2.dll
+D:\Code\放行條申請系統\ElectronicRelease - 複製\Education2\bin\Education2.pdb
+D:\Code\放行條申請系統\ElectronicRelease - 複製\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\Code\放行條申請系統\ElectronicRelease - 複製\Education2\obj\Debug\Education2.dll
+D:\Code\放行條申請系統\ElectronicRelease - 複製\Education2\obj\Debug\Education2.pdb
+D:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\RdlCompile.cache
+D:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\RdlCompile.compiled
+D:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+F:\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.dll.config
+F:\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.dll
+F:\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.pdb
+F:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\RdlCompile.cache
+F:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\RdlCompile.compiled
+F:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.dll
+F:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.pdb
+F:\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.dll.config
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.dll
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\bin\Education2.pdb
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\RdlCompile.cache
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\RdlCompile.compiled
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.dll
+E:\F20180717\工作\Code\放行條申請系統\ElectronicRelease\Education2\obj\Debug\Education2.pdb
+E:\F20180717\工作\Code\放行條申請系統\CQ\ElectronicRelease\Education2\obj\Debug\RdlCompile.cache
+E:\F20180717\工作\Code\放行條申請系統\CQ\ElectronicRelease\Education2\obj\Debug\RdlCompile.compiled
+E:\F20180717\工作\Code\放行條申請系統\CQ\ElectronicRelease\Education2\bin\Education2.dll.config
+E:\F20180717\工作\Code\放行條申請系統\CQ\ElectronicRelease\Education2\bin\Education2.dll
+E:\F20180717\工作\Code\放行條申請系統\CQ\ElectronicRelease\Education2\bin\Education2.pdb
+E:\F20180717\工作\Code\放行條申請系統\CQ\ElectronicRelease\Education2\obj\Debug\Education2.dll
+E:\F20180717\工作\Code\放行條申請系統\CQ\ElectronicRelease\Education2\obj\Debug\Education2.pdb
+E:\AP System\ElectronicReleaseCQ\Education2\bin\Education2.dll.config
+E:\AP System\ElectronicReleaseCQ\Education2\bin\Education2.dll
+E:\AP System\ElectronicReleaseCQ\Education2\bin\Education2.pdb
+E:\AP System\ElectronicReleaseCQ\Education2\obj\Debug\RdlCompile.cache
+E:\AP System\ElectronicReleaseCQ\Education2\obj\Debug\RdlCompile.compiled
+E:\AP System\ElectronicReleaseCQ\Education2\obj\Debug\Education2.dll
+E:\AP System\ElectronicReleaseCQ\Education2\obj\Debug\Education2.pdb
+E:\AP System\ElectronicReleaseCQ\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+F:\ElectronicReleaseCQ\Education2\bin\Education2.dll.config
+F:\ElectronicReleaseCQ\Education2\bin\Education2.dll
+F:\ElectronicReleaseCQ\Education2\bin\Education2.pdb
+F:\ElectronicReleaseCQ\Education2\obj\Debug\Education2.dll
+F:\ElectronicReleaseCQ\Education2\obj\Debug\Education2.pdb
+F:\ElectronicReleaseCQ\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\ElectronicReleaseCQ\Education2\bin\Education2.dll.config
+D:\ElectronicReleaseCQ\Education2\bin\Education2.dll
+D:\ElectronicReleaseCQ\Education2\bin\Education2.pdb
+D:\ElectronicReleaseCQ\Education2\bin\Microsoft.SqlServer.Types.dll
+D:\ElectronicReleaseCQ\Education2\obj\Debug\Education2.csprojResolveAssemblyReference.cache
+D:\ElectronicReleaseCQ\Education2\obj\Debug\Education2.dll
+D:\ElectronicReleaseCQ\Education2\obj\Debug\Education2.pdb

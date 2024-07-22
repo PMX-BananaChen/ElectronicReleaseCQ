@@ -1,0 +1,36 @@
+﻿td { font-size: 9pt}
+a { color: #000000; text-decoration: none}
+a:hover { color:#E78a29; text-decoration: none}
+
+th {
+
+    background:url('../Images/th.jpg');
+    height:20px;
+
+}
+
+
+.bubufxPagerCss table
+{
+    text-align:center;
+    margin:auto;
+}
+.bubufxPagerCss table td
+{
+    border:0px;
+    padding:5px;
+}
+.bubufxPagerCss td
+{
+    border-left: #ffffff 3px solid;
+    border-right: #ffffff 3px solid;
+    border-bottom: #ffffff 3px solid;
+}
+.bubufxPagerCss a
+{
+    color:#231815;text-decoration:none;padding:3px 6px 3px 6px; margin: 0 0 0 4px; text-align:center; border:1px solid #CCC;
+}
+.bubufxPagerCss span
+{
+     color:#fefefe;background-color:#16ACFF; padding:3px 6px 3px 6px; margin: 0 0 0 4px; text-align:center; font-weight:bold; border:1px solid #CCC;
+}
